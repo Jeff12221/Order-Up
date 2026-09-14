@@ -33,14 +33,4 @@ The app has three sides that interact with each other whenever an order is place
 - **Backend:** Python
 - **Database:** MongoDB
 
-## Project Type
-
-Solo project.
-
-## License
-
-This project is open source.
-
----
-
 Made by Owheya Jeffrey-Lee
