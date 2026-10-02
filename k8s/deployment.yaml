@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: order-up
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: order-up
+  template:
+    metadata:
+      labels:
+        app: order-up
+    spec:
+      containers:
+        - name: order-up
+          image: jeff12221/order-up:latest
+          ports:
+            - containerPort: 80
