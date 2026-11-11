@@ -40,6 +40,27 @@ import React from 'react';
                 </div>
               </div>
             </div> 
+              
+            <div className="flex gap-4">
+              <a
+                href="https://www.instagram.com/YOUR_USERNAME/"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Instagram"
+                className="rounded-full p-2 hover:bg-primary/10 transition-colors"
+              >
+                <Instagram className="h-5 w-5" />
+            </a>
+              <a
+                href="https://github.com/Jeff12221"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="GitHub"
+                className="rounded-full p-2 hover:bg-primary/10 transition-colors"
+              >
+                <Github className="h-5 w-5" />
+              </a>
+            </div>
             
             <div className="mt-12 border-t border-border/40 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
               <p className="text-xs text-muted-foreground">
