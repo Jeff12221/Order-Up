@@ -16,7 +16,7 @@ import React from 'react';
                 </p>
               </div>
               
-              {/* <div>
+              <div>
                 <h4 className="mb-4 text-sm font-semibold uppercase tracking-wider">Product</h4>
                 <ul className="space-y-2 text-sm text-muted-foreground">
                   <li><a href="#" className="hover:text-primary transition-colors">Kitchen Display</a></li>
@@ -39,16 +39,16 @@ import React from 'react';
                   </button>
                 </div>
               </div>
-            </div> */}
+            </div> 
             
             <div className="mt-12 border-t border-border/40 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
               <p className="text-xs text-muted-foreground">
                 © 2026 Order Up Systems Inc. All rights reserved.
               </p>
-              {/* <div className="flex gap-6 text-xs text-muted-foreground">
+              <div className="flex gap-6 text-xs text-muted-foreground">
                 <a href="#" className="hover:text-primary">Privacy Policy</a>
                 <a href="#" className="hover:text-primary">Terms of Service</a>
-              </div> */}
+              </div>
             </div>
           </div>
         </footer>
