@@ -31,18 +31,7 @@ import React from 'react';
                   <button className="rounded-full p-2 hover:bg-primary/10 transition-colors">
                     <Twitter className="h-5 w-5" />
                   </button>
-                  <button className="rounded-full p-2 hover:bg-primary/10 transition-colors">
-                    <Instagram className="h-5 w-5" />
-                  </button>
-                  <button className="rounded-full p-2 hover:bg-primary/10 transition-colors">
-                    <Github className="h-5 w-5" />
-                  </button>
-                </div>
-              </div>
-            </div> 
-              
-            <div className="flex gap-4">
-              <a
+                    <a
                 href="https://www.instagram.com/YOUR_USERNAME/"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -51,13 +40,41 @@ import React from 'react';
               >
                 <Instagram className="h-5 w-5" />
             </a>
-              <a
+                  {/* <button className="rounded-full p-2 hover:bg-primary/10 transition-colors">
+                    <Instagram className="h-5 w-5" />
+                  </button> */}
+                  {/* <button className="rounded-full p-2 hover:bg-primary/10 transition-colors">
+                      <a href="https://github.com/Jeff12221"> </a>
+                    <Github className="h-5 w-5" />
+                  </button> */}
+                    <a
                 href="https://github.com/Jeff12221"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="GitHub"
                 className="rounded-full p-2 hover:bg-primary/10 transition-colors"
               >
+                </div>
+              </div>
+            </div> 
+              
+            <div className="flex gap-4">
+              {/* <a
+                href="https://www.instagram.com/YOUR_USERNAME/"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Instagram"
+                className="rounded-full p-2 hover:bg-primary/10 transition-colors"
+              >
+                <Instagram className="h-5 w-5" />
+            </a> */}
+              {/* <a
+                href="https://github.com/Jeff12221"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="GitHub"
+                className="rounded-full p-2 hover:bg-primary/10 transition-colors"
+              > */}
                 <Github className="h-5 w-5" />
               </a>
             </div>
